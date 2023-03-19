@@ -187,10 +187,8 @@ li p {
 
 }
 
-.btn-delete:hover:before {
+.btn-delete:hover {
     cursor: pointer;
-    font-size: 20px;    
-    content: "Eliminar ";
 }
 
 .btn-addProceso {
@@ -203,10 +201,8 @@ li p {
     outline: none;
 }
 
-.btn-addProceso:hover::before {
-    cursor: pointer;
-    content: "Comenzar ";
-    font-size: 20px;    
+.btn-addProceso:hover {
+    cursor: pointer;  
 }
 
 .btn-addFinalizada {
@@ -219,8 +215,6 @@ li p {
     outline: none;
 }
 
-.btn-addFinalizada:hover::before {
+.btn-addFinalizada:hover {
     cursor: pointer;
-    content: "Finalizar ";
-    font-size: 20px;    
 }

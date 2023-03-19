@@ -77,7 +77,7 @@ addBtn.addEventListener("click", (e) => {
 function addDeleteBtn(){
     const deleteBtn = document.createElement("button");
     
-    deleteBtn.textContent = "-";
+    deleteBtn.textContent = "Eliminar -";
 
     deleteBtn.className = "btn-delete";
 
@@ -122,7 +122,7 @@ function addDeleteBtn(){
 function addProceso(){
     const procesoBtn = document.createElement("button");
     
-    procesoBtn.textContent = "+";
+    procesoBtn.textContent = "Iniciar +";
     procesoBtn.className = "btn-addProceso";
 
     procesoBtn.addEventListener("click", (e) => {
@@ -159,7 +159,7 @@ function addProceso(){
 function addFinalizada(){
     const finalizadaBtn = document.createElement("button");
     
-    finalizadaBtn.textContent = "+";
+    finalizadaBtn.textContent = "Finalizar ✔";
     finalizadaBtn.className = "btn-addFinalizada";
 
     
