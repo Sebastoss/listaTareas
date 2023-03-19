@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style-tareas.css">
+</head>
+<body>
+    <header>
+        <h1>Agenda de tareas</h1>
+        <button id="abrirModal">Añadir</button>
+    </header>
+    <div id="container">
+        <div id="container-tarea" class="ocultar">
+            <h2>Lista de tareas</h2>
+            <ul id="ulTareas"></ul>
+        </div>
+        <div id="container-proceso" class="ocultar">
+            <h2>En proceso</h2>
+            <ul id="ulProceso"></ul>
+        </div>
+        <div id="container-finalizada" class="ocultar">
+            <h2>Finalizadas</h2>
+            <ul id="ulFinalizada"></ul>
+        </div>
+        <div class="empty">
+            <p>No tienes tareas pendientes...</p>
+        </div>
+        <div id="modal-tareas" class="ocultar">
+            <h2>Añadir Tarea</h2>
+            <form action="">
+                <input type="text" placeholder="Escribe una tarea...">
+                <button class="btn-add">+</button>
+            </form>
+        </div>
+    </div>
+
+    
+    
+    <script src="./main-tareas.js"></script>
+</body>
+</html>
