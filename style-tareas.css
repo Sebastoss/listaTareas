@@ -194,16 +194,27 @@ option:checked {
 
 ul {
     padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    place-items: flex-start;
 }
 
 li {
-    background-color:lightgrey;
+    /* background-color:lightgrey;
     list-style: none;
     margin-top: 15px;
     display: flex;
     flex-direction: column;
-    /*justify-content: space-between;*/
+    justify-content: space-between;
+    border-radius: 5px; */
+    margin: 3px;
+    background-color: lightgrey;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
     border-radius: 5px;
+    flex: auto;
 }
 
 li p {
