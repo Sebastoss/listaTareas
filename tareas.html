@@ -31,7 +31,13 @@
         <div id="modal-tareas" class="ocultar">
             <h2>Añadir Tarea</h2>
             <form action="">
-                <input type="text" placeholder="Escribe una tarea...">
+                <input type="text" placeholder="Título" id="inputTitulo" tabindex="0">
+                <textarea name="textarea" rows="5" cols="50" placeholder="Añade una tarea..." id="textAreaDesc"></textarea>
+                <select name="prioridad" required>
+                    <option value="alta">Alta</option>
+                    <option value="media">Media</option>
+                    <option value="baja" selected>Baja</option>
+                </select>
                 <button class="btn-add">+</button>
             </form>
         </div>
@@ -39,6 +45,6 @@
 
     
     
-    <script src="./main-tareas.js"></script>
+    <script src="./main-tareas2.js"></script>
 </body>
 </html>
